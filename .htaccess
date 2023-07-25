@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^http://www.sayaelevatorindustries.com/ 
+RewriteRule (.*) https://sayaelevatorindustries.com/$1 [R=301,L]
+
